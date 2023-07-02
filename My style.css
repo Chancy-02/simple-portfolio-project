@@ -1,0 +1,130 @@
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.row-1{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto;
+    gap: 35px;
+}
+body{
+
+}
+html{
+    background-color: #19376D;
+    color: #8294C4
+}
+body>img{
+    max-width: 100%;
+    height: 100px;
+}
+.image>img{
+    max-width: 100%;
+    height: 150px;
+    border-radius: 50%;
+}
+.row-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 30px;
+}
+a{
+    color: gold;
+}
+a:active{
+    color: greenyellow;
+}
+a:hover{
+    color: red;
+}
+ul{
+    list-style: none;
+}
+h3{
+    font-family: 'Caprasimo', cursive;
+}
+h4{
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.flex-2{
+    display: flex;
+    flex-flow:row wrap;
+}
+.self-image>img{
+    max-width: 100%;
+    height: 350px;
+    float: left;
+    border-radius: 50%;
+}
+h5{
+    font-size: 30px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+p{
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 20px;
+}
+
+.footer{
+    width:100%;
+}
+@media only screen and (min-width:620px){
+    .container{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        display: inline-flex;
+        display: block;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    .row-2{
+        display:grid;
+        gap:0px;
+    }
+    body{
+        width: max-content;
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        top: 10%;
+        bottom: 25%;
+        
+    }
+    html{
+        background-color: #27374D;
+        color:#D5CEA3;
+    }
+    h3{
+        font-size: 50px;
+        font-family: 'Germania One', cursive;
+    }
+    h4{
+        font-size: 25px;
+        font-family: 'Hind', sans-serif;
+    }
+    .image>img{
+        max-width: 100%;
+        height: 250px;
+        border-radius: 50%;
+    }
+    a{
+        font-size: 20px;
+    }
+}
+.qualification-grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.graduation-hat-image>img{
+    max-width: 100%;
+    width: 460px;
+}
+
